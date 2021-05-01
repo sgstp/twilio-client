@@ -11,6 +11,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor(force = true)
 public class ResponseSendMessage {
+
+    public static final String STATUS_ACCEPTED = "accepted";
+
     public final String dateCreated;
     public final String dateSent;
     public final Integer num_media;
